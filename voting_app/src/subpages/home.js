@@ -24,10 +24,10 @@ function HomePage() {
             <div className="bg-cover bg-center h-screen flex flex-col justify-center items-center text-white " style={{ backgroundImage: `url(${polling})` }}>
 
                 <div className="text-center">
-                    <h1 className="text-4xl md:text-6xl xl:text-7xl font-extrabold mb-4 text-white">
+                    <h1 className="text-4xl md:text-6xl xl:text-7xl font-extrabold mb-4 text-black">
                         Online CBIT Voting 2023
                     </h1>
-                    <p className="text-xl md:text-2xl mb-6 text-white">
+                    <p className="text-xl md:text-2xl mb-6 font-bold text-black">
                         For a more democratic CBIT future!
                     </p>
                     <div className="flex justify-center space-x-4">

@@ -29,7 +29,7 @@ function Footer() {
                 </div>
 
                 <div className="text-center mt-8 border-t pt-6 border-gray-700">
-                    <p>© 2023 | Project of 42,51,301</p>
+                    <p>© 2023 | Our Team</p>
                 </div>
             </div>
         </footer>
