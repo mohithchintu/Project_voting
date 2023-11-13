@@ -4,7 +4,7 @@ function Footer() {
     return (
         <footer className="bg-gray-800 p-8 mt-8 text-white">
             <div className="container mx-auto">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-between">
 
                     {/* Section 2: Quick Links */}
                     <div className="">
@@ -16,6 +16,13 @@ function Footer() {
                         </ul>
                     </div>
 
+                    {/*Quote*/}
+                    <div className="lg:col-span-2">
+                        <p className="italic leading-loose pl-4 py-2">
+                            "Voting is not a right, It's a power"
+                        </p>
+                    </div>
+
                     {/* Section 3: Contact Us */}
                     <div className="">
                         <h2 className="font-bold text-xl mb-4">Contact Us</h2>
@@ -25,23 +32,14 @@ function Footer() {
                             <li><strong>Address:</strong> Gandipet, CBIT</li>
                         </ul>
                     </div>
-                    {/*Quote*/}
-                    <div className="col-span-full lg:col-span-2">
-                        <blockquote className="border-l-4 border-blue-500 italic leading-loose pl-4 py-2">
-                            "Voting is not a right, It's a power"
-                        </blockquote>
-
-                    </div>
-
-
 
                 </div>
 
                 <div className="text-center mt-8 border-t pt-6 border-gray-700">
-                    <p>© 2023 | Internship Project I love </p>
+                    <p>© 2023 | IIoT Internship Project</p>
                 </div>
             </div>
-        </footer >
+        </footer>
     );
 }
 

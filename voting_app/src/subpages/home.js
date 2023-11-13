@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
-import vo from '../assets/vo.jpg';
+// import vo from '../assets/vo.jpg';
 import polling from '../assets/polling.jpeg'
 
 function HomePage() {
@@ -52,7 +52,7 @@ function HomePage() {
                 </div>
             </div>
             <section className="bg-gray-100 flex flex-col justify-center items-center h-screen">
-                <div className="grid max-w-screen-xl px-4 py-8 lg:grid-cols-12 mx-auto">
+                <div className="align-content:center grid max-w-screen-xl px-4 py-8 lg:grid-cols-12 mx-auto">
                     <div className="lg:col-span-7 flex flex-col items-center">
                         <h1 className="text-4xl md:text-5xl xl:text-6xl font-extrabold text-blue-700 mb-4">
                             Why Choose Online Voting?
