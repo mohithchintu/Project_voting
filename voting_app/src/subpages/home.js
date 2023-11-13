@@ -2,8 +2,8 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
-import polling from '../assets/polling.jpeg';
 import vo from '../assets/vo.jpg';
+import polling from '../assets/polling.jpeg'
 
 function HomePage() {
     const navigate = useNavigate();
@@ -15,15 +15,20 @@ function HomePage() {
     const handleLearnMoreClick = () => {
         navigate('/guidelines');
     }
+
     const handleExploreBenefits = () => {
         navigate('/benefits');
     }
+
     return (
         <>
             <Navbar />
-            <div className="bg-cover bg-center h-screen flex flex-col justify-center items-center text-white " style={{ backgroundImage: `url(${polling})` }}>
-
-                <div className="text-center">
+            <div className="relative h-screen flex flex-col justify-center items-center text-white">
+                <div
+                    className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
+                    style={{ backgroundImage: `url(${polling})` }}
+                />
+                <div className="relative z-10 text-center">
                     <h1 className="text-4xl md:text-6xl xl:text-7xl font-extrabold mb-4 text-black">
                         Online CBIT Voting 2023
                     </h1>
