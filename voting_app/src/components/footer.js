@@ -25,7 +25,7 @@ function Footer() {
                             <li><strong>Address:</strong> Gandipet, CBIT</li>
                         </ul>
                     </div>
-                    {/Quote/}
+                    {/*Quote*/}
                     <div className="col-span-full lg:col-span-2">
                         <blockquote className="border-l-4 border-blue-500 italic leading-loose pl-4 py-2">
                             "Voting is not a right, It's a power"
@@ -38,11 +38,11 @@ function Footer() {
                 </div>
 
                 <div className="text-center mt-8 border-t pt-6 border-gray-700">
-                    <p>© 2023 | Internship Project </p>
+                    <p>© 2023 | Internship Project I love </p>
                 </div>
             </div>
         </footer >
     );
 }
 
-export default Footer;
+export default Footer;

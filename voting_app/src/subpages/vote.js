@@ -47,8 +47,8 @@ const Login = () => {
         <div className="min-h-screen flex flex-col">
             <Navbar />
             <div className="flex-grow flex items-center justify-center">
-                <div className="bg-white p-8 rounded shadow-lg w-96">
-                    <h1 className="text-2xl font-bold text-center mb-4">Login T0 Vote</h1>
+                <div className="m-9 bg-white p-8 rounded shadow-2xl w-96">
+                    <h1 className="text-2xl font-bold text-center mb-4">Login To Vote</h1>
                     <form onSubmit={handleSubmit}>
                         <div className="mb-4">
                             <label className="block text-blue-900">Username:</label>
@@ -85,4 +85,4 @@ const Login = () => {
     );
 };
 
-export default Login;
+export default Login;
