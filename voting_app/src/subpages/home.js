@@ -25,7 +25,7 @@ function HomePage() {
             <Navbar />
             <div className="relative h-screen flex flex-col justify-center items-center text-white">
                 <div
-                    className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
+                    className="absolute top-0 left-0 w-full h-full bg-cover bg-center opacity-60"
                     style={{ backgroundImage: `url(${polling})` }}
                 />
                 <div className="relative z-10 text-center">
