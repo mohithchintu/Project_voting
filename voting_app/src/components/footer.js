@@ -17,9 +17,9 @@ function Footer() {
                     </div>
 
                     {/*Quote*/}
-                    <div className="lg:col-span-2">
+                    <div className="">
                         <p className="italic leading-loose pl-4 py-2">
-                            "Voting is not a right, It's a power"
+                            "Voting is not a right, it's a power"
                         </p>
                     </div>
 

@@ -8,6 +8,12 @@ import chintu from '../assets/chintu.jpg';
 const AboutUs = () => {
   const teamMembers = [
     {
+      name: "Mohith",
+      role: "160121749042",
+      image: chintu,
+      description: "With a strong background in server-side development, Mohith ensures our website runs smoothly and securely."
+    },
+    {
       name: "Kousik",
       role: "160121749301",
       image: kou,
@@ -19,12 +25,6 @@ const AboutUs = () => {
       image: bomb,
       description: "Owais specializes in creating user-friendly interfaces. He believes in intuitive design and its power to make the web accessible to everyone."
     },
-    {
-      name: "Mohith",
-      role: "160121749042",
-      image: chintu,
-      description: "With a strong background in server-side development, Mohith ensures our website runs smoothly and securely."
-    }
   ];
 
   return (
