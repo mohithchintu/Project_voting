@@ -6,10 +6,6 @@ import vm from '../assets/vm.jpg'
 function Guidelines() {
     return (
         <div className="min-h-screen">
-                    {/* <div
-                    className="absolute top-0 left-0 w-full h-full bg-cover bg-center opacity-20"
-                    style={{ backgroundImage: `url(${vm})` }}
-                /> */}
             <Navbar />
 
             <div className="py-16">

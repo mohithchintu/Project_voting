@@ -116,7 +116,6 @@ function Register() {
         <>
             <Navbar />
             <div className="m-8 w-5/12 bg-gray-200 p-6 rounded shadow-xl mx-auto">
-
                 <h1 className="text-center text-2xl font-bold text-blue-900 mb-8">
                     Registration
                 </h1>

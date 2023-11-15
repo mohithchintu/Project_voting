@@ -4,11 +4,11 @@ function Footer() {
     return (
         <footer className="bg-gray-800 p-8 mt-8 text-white">
             <div className="container mx-auto">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-between space-x-24 justify-between    ">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-between space-x-24">
 
                     {/* Section 2: Quick Links */}
-                    <div className=" mx-32 ">
-                        <h2 className="underline font-bold text-xl mb-4 ">Quick Links</h2>
+                    <div className="mx-32">
+                        <h2 className="underline font-bold text-xl mb-4">Quick Links</h2>
                         <ul className="space-y-2">
                             <li><a href="/guidelines" className="hover:text-gray-400">Guidelines</a></li>
                             <li><a href="/register" className="hover:text-gray-400">Register</a></li>
@@ -16,16 +16,16 @@ function Footer() {
                         </ul>
                     </div>
 
-                    {/*Quote*/}
-                    <div className="px-4 ">
-                        <p className="italic leading-loose pl-4 py-2">
+                    {/* Quote */}
+                    <div className="flex items-center align-middle px-8 mx-20">
+                        <p className="italic leading-loose text-center py-2">
                             "Voting is not a right, it's a power"
                         </p>
-                    </div> 
+                    </div>
 
                     {/* Section 3: Contact Us */}
-                    <div className="">
-                        <h2 className="font-bold text-xl mb-4">Contact Us</h2>
+                    <div className="mx-32">
+                        <h2 className="underline font-bold text-xl mb-4">Contact Us</h2>
                         <ul className="space-y-2">
                             <li><strong>Contact:</strong> 6300202189</li>
                             <li><strong>Branch:</strong> CET</li>

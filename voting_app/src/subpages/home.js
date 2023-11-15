@@ -16,7 +16,7 @@ function HomePage() {
     };
 
     const handleExploreBenefits = () => {
-        navigate('/benefits');
+        navigate('https://cepr.org/voxeu/columns/surprising-benefits-voting-change');
     };
 
     return (
@@ -51,8 +51,8 @@ function HomePage() {
                 </div>
             </div>
             <section className="bg-white-100  h-78 ">
-                <div className="grid max-w-screen-xl py-20 min-h-[1rem ] px-52 w-2/2 lg:grid-cols-12   mx-auto flex flex-col justify-center items-center">
-                    <div className="lg:col-span-7 flex flex-col   w-[56rem] ">
+                <div className="grid max-w-screen-xl py-28 min-h-[1rem ] px-52 w-2/2 lg:grid-cols-12   mx-auto flex flex-col justify-center items-center">
+                    <div className="lg:col-span-7 flex flex-col   w-[56rem] justify-center items-center">
                         <h1 className="text-4xl md:text-5xl xl:text-6xl font-extrabold text-blue-700 mb-4">
                             Why Choose Online Voting?
                         </h1>
@@ -62,7 +62,7 @@ function HomePage() {
                         <div className="flex  flex-row justify-center space-x-4">
                             <button
                                 onClick={handleVoteNowClick}
-                                className="px-6 py-3 text-base font-medium text-blue-700 bg-white rounded-lg hover:bg-blue-200 focus:ring-4 focus:ring-blue-500 "
+                                className="px-6 py-3 text-base font-medium text-blue-700 bg-white rounded-lg transition duration-300 ease-in-out hover:bg-blue-200 focus:ring-4 focus:ring-blue-500 "
                             >
                                 Cast Your Vote
                             </button>
